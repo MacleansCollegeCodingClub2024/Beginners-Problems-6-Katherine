@@ -1,6 +1,5 @@
 def triangleTest(a, b, c):
     a, b, c = sorted([a, b, c])
-
     if a + b > c:
         return True 
     else:
